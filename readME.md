@@ -13,15 +13,18 @@ git clone [https://github.com/AlbertoCebrian/bot-sbit.git](https://github.com/Al
 ```
 
 ### 2. Preparar el entorno virtual
-Abre una terminal (preferiblemente en VS Code o PowerShell) dentro de la carpeta del proyecto y ejecuta estos comandos:
+Abre una terminal dentro de la carpeta del proyecto y ejecuta los comandos correspondientes a tu sistema operativo:
 
 **En Windows:**
 ```bash
-# Crear el entorno virtual
 python -m venv .venv
-
-# Activar el entorno virtual
 .\.venv\Scripts\activate
+```
+
+**En Linux / macOS:**
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 *(Nota: Sabrás que está activado porque verás `(.venv)` al principio de la línea en tu terminal).*
 
